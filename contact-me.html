@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./about-me.html">About Me</a></li>
+            <li><a class="nav-link" href="./technical-skills.html">Technical Skills</a></li>
+            <li><a class="nav-link" href="./projects.html">Projects</a></li>
+            <li><a class="nav-link active-link" href="./contact-me.html">Contact Me</a></li>
+        </ul>
+        <div class="nav-icon" id="nav-btn">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+    </nav>
+
+    <section class="mobile-nav" id="mobile-nav">
+        <ul class="mob-nav-list">
+            <li><a class="mob-nav-link" href="./index.html">Home</a></li>
+            <li><a class="mob-nav-link" href="./about-me.html">About Me</a></li>
+            <li><a class="mob-nav-link" href="./technical-skills.html">Technical Skills</a></li>
+            <li><a class="mob-nav-link" href="./projects.html">Projects</a></li>
+            <li><a class="mob-nav-link mob-active-link" href="./contact-me.html">Contact Me</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Me -->
+
+    <section class="section-contact">
+        <h2 class="gen-title">Contact Me <i class="fa-solid fa-phone"></i></h2>
+        
+        <div class="form-box">
+        <form action="https://formsubmit.co/dsawant@smartsight.in" method="POST">
+            <div class="form-group">
+                <label>Your Name</label>
+                <input class="form-control" type="text" name="Name" placeholder="Enter Name Here" required>
+            </div>
+
+            <div class="form-group">
+                <label>Your Email Address</label>
+                <input class="form-control" type="email" name="Email"  placeholder="Enter Email Here"  required>
+            </div>
+
+            <div class="form-group">
+                <label>Your Message</label>
+                <textarea class="form-control ta" type="text" placeholder="Enter Message Here"  name="Message"></textarea>
+            </div>
+            <input type="submit" class="submit-btn" value="Send">
+        </form>
+        </div>
+
+        <div class="contact-links">
+            <a href="https://in.linkedin.com/in/the-darshan-sawant" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:dsawant@smartsight.in" ><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/darshan-sawant-15" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

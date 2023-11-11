@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./about-me.html">About Me</a></li>
+            <li><a class="nav-link" href="./technical-skills.html">Technical Skills</a></li>
+            <li><a class="nav-link active-link" href="./projects.html">Projects</a></li>
+            <li><a class="nav-link" href="./contact-me.html">Contact Me</a></li>
+        </ul><div class="nav-icon" id="nav-btn">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+    </nav>
+
+    <section class="mobile-nav" id="mobile-nav">
+        <ul class="mob-nav-list">
+            <li><a class="mob-nav-link" href="./index.html">Home</a></li>
+            <li><a class="mob-nav-link" href="./about-me.html">About Me</a></li>
+            <li><a class="mob-nav-link" href="./technical-skills.html">Technical Skills</a></li>
+            <li><a class="mob-nav-link mob-active-link" href="./projects.html">Projects</a></li>
+            <li><a class="mob-nav-link" href="./contact-me.html">Contact Me</a></li>
+        </ul>
+    </section>
+
+
+    <!--Projects-->
+    <section class="section-tech">
+        <h2 class="gen-title">My Projects <i class="fa-regular fa-file-code"></i> </h2>
+
+        <div class="projects">
+            <div class="project">
+                <img src="./images/hush-hub.png" class="project-image">
+                <h3 class="project-title">Smart Expense Tracker | Aug 2023</h3>
+                <p  class="project-desc">Smart Expense Tracker is a user-friendly financial management application designed to help you gain control over your finances. Users can add, delete, update and view their expenses easily. Users can also add, delete, update and view their income sources. Users can set financial savings goals and monitor their progress. The webapp allows users to unlock powerful financial insights with our analysis tools.</p>
+                <div class="tech-req"> 
+                    Tech Stack: Spring Boot, MySQL, HTML, CSS, Bootstrap, Javascript
+                 </div>
+                <p class="project-link">
+                    <a href="https://smart-expense-tracker-production.up.railway.app">Visit Site<i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/darshan-sawant-15/Smart-Expense-Tracker">View Code<i class="fa-brands fa-github"></i></a>
+                    </p>
+            </div>
+            <div class="project">
+                <img src="./images/hush-hub.png"  class="project-image">
+                <h3 class="project-title">Hush Hub
+                     | June 2023</h3>
+                <p class="project-desc">HushHub is a feature-rich social media web application built in PHP, designed with user privacy and data security in mind. It prioritizes user privacy with encrypted messaging, ensuring that conversations remain confidential and protected from unauthorized access. Users can post pictures, just like Instagram, to share their moments and experiences with their followers, fostering engagement and creativity. </p>
+                <div class="tech-req"> 
+                    Tech Stack: PHP, MySQL, HTML, CSS, Bootstrap, Javascript
+                 </div>
+                <p class="project-link">
+                    <a href="http://hushhub.42web.io/">Visit Site<i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/darshan-sawant-15/Hush-Hub">View Code<i class="fa-brands fa-github"></i></a>
+                    </p>
+
+            </div>
+            <div class="project">
+                <img src="./images/student-register.png" class="project-image">
+                <h3 class="project-title">Student Register | Oct 2023</h3>
+                <p class="project-desc">Developed a MEAN stack application for streamlined student data
+                    management, covering creation, viewing, updating, and deletion of student
+                    information. Leveraged MongoDB, Express.js, Angular, and Node.js to create a robust and
+                    responsive web application. Demonstrated proficiency in full-stack development, database management,
+                    and userinterface design.</p>
+                <div class="tech-req"> 
+                   Tech Stack: Node.js, Express, MongoDB, Angular, HTML, CSS, Bootstrap
+                </div>
+                <p class="project-link">
+                    <a href="https://darshan-sawant-15.github.io/Student-Register/">Visit Site<i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/darshan-sawant-15/Student-Register">View Code<i class="fa-brands fa-github"></i></a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
